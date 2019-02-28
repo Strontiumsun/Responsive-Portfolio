@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./reset.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="./style_alt.css">
+</head>
+
+<body>
+    <!--This page should start out just like the previous one so I am going to copy it over-->
+    <div class="container2">
+        <!--Title should be my name-->
+        <header class="header">
+            <!--in the picture there's a directory. I know we did this in an earlier assignment
+        I guess these should be links!-->
+            <nav>
+                <h1 id="headerID">Izzy Hall</h1>
+                <div id="navID">
+                    <a class="navlink" href="index.html">About</a> |
+                    <a class="navlink" href="portfolio.html">Portfolio</a> |
+                    <a class="navlink" href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!--As a contact page, the form should be the emphasis. There are three forms: Name, 
+        Email and Message
+        Id uses # and class uses .-->
+    <div class="container">
+        <div id="aboutme">Contact</div>
+        <form class="long">
+            <div class="formquery">Name</div>
+            <br>
+            <input type="text" placeholder="John Smith">
+        </form>
+        <form class="long">
+            <div class="formquery">Email</div>
+            <br>
+            <input type="email" placeholder="example@gmail.com">
+        </form>
+        <form id="message">
+            <div class="formquery"> Message</div>
+            <br>
+            <input id="messagefield" type="text" value autofocus="on">
+        </form>
+        <form>
+            <input id="submitbutton" type="submit" value="Submit">
+        </form>
+    </div>
+    <footer class="footer">Copywrite ©</footer>
+</body>
+
+</html>
