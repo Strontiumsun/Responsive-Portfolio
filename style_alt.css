@@ -189,15 +189,87 @@ input{
 
 }
 @media screen and (max-width: 768px) {
-
-
+.container {
+    width: 729px;
+    margin: 0 auto;
 }
+.container2 {
+    width: 768px;
+    overflow: hidden;
+    position: relative;
+}
+#headerID {
+    margin-left: 10px;
+}
+.nav{
+    float: right;
+}
+#navID{
+    position: absolute;
+    left: 565px;
+    text-align: center;
+    margin-top: 5px;
+}
+/* #navID {
+    text-align: center;
+    margin-right: 212px;
+    margin-top: 5px;
+} */
+input{
+    width: 669px;
+}
+#aboutme {
+    width: 669px;
+}
+}
+
 @media screen and (max-width: 640px) {
 .container {
-    width: 640px;
-    margin-left:auto;
-    margin-right:auto;
+    width: 600px;
+    margin: 0 auto;
 }
-
+.container2 {
+    width: 640px;
+    overflow: hidden;
+    height: 90px;
+}
+#headerID {
+    position: static;
+    max-width: 640px;
+    overflow: hidden;
+    float: none;
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+}
+#navID {
+    position: relative;
+    left: 0px;
+    max-width: 640px;
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+.noblock {
+    margin-bottom: 20px;
+}
+#column1{
+    padding-bottom: 0px;
+}
+#column2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#column3{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+input{
+    width: 540px;
+}
+#aboutme {
+    width: 540px;
+}
 }
 
